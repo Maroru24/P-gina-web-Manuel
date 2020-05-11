@@ -1,0 +1,28 @@
+html {
+    min-height: 100%; 
+}
+body {
+    background: linear-gradient(#93B874 10%, #C9DCB9 30%, #000000 60%);
+}
+h1 {
+	color: #FFFF00;
+}
+h3 {
+	color: #FFFF00;
+}
+TABLE {
+	border: 1px solid #000;
+	border-collapse:collapse;
+	width:500px;
+}
+TABLE td {
+	border:1px solid #000;
+	padding:20px;
+}
+TABLE tr:hover {
+	background:#FFFF00;
+	color:#fff;
+}
+TABLE p {
+	color: #04B404;
+}
