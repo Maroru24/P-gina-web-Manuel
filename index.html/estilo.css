@@ -46,41 +46,30 @@ TABLE img{
 	width: 70%;
 	height: 70%;
 
-ul {
+UL {
 	text-align:center;
 	width: 70%;
 	list-style:none;
 }
-ul p {
+UL p {
 	text-align:center;
 	color: #04B404;
 }
-ul p:hover {
+UL p:hover {
 	background: #000000
 	color: #FFFF00;
 }
-li {
+LI {
 	text-align:center;
 	width: 70%;
 	list-style:none;
 }
-li p {
+LI p {
 	text-align:center;
 	color: #04B404;
 }
-li p:hover {
+LI p:hover {
 	background: #000000
 	color: #FFFF00;
-img {
-	width: 10%;
-	height: 10%;
-}
-.horizontal {
-	display: flex;
-	justify-content: center;
-}
-.vertical {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
+
+
