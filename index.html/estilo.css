@@ -22,7 +22,7 @@ TABLE {
 	vertical-align: middle;
 	text-align:center;
 	border: 1px solid #000;
-	border-collapse:collapse;
+	border-collapse: collapse;
 	width:100%;
 }
 TABLE td {
@@ -45,31 +45,74 @@ TABLE a {
 TABLE img{
 	width: 70%;
 	height: 70%;
+}
+TABLE h3 {
+	text-align: center;
+	color: #04B404;
+}
 
-UL {
+.lista {
+	
 	text-align:center;
-	width: 70%;
-	list-style:none;
+	width: 100%;
+	background: #04B404;
+	list-style: none;
+	margin: auto;
+	padding: 0;
+	
+	
 }
-UL p {
+.lista LI {
+	text-align: center;
+	display: inline-block;
+}
+
+.lista LI a {
+	padding: 10px 20px;
+	display: inline-block;
+	color: #fff;
+}
+.lista LI a:hover {
+	background:#0B3B0B;
+	color:#FFFF00;
+
+.lista2 {
+	
 	text-align:center;
-	color: #04B404;
+	width: 100%;
+	background: #04B404;
+	list-style: none;
+	margin: auto;
+	padding: 0;
+	
+	
 }
-UL p:hover {
-	background: #000000
-	color: #FFFF00;
+.lista2 LI {
+	text-align: center;
+	
 }
-LI {
-	text-align:center;
-	width: 70%;
-	list-style:none;
+
+.lista2 LI {
+	padding: 10px 20px;
+	display: inline-block;
+	color: #fff;
 }
-LI p {
-	text-align:center;
-	color: #04B404;
+.lista2 LI:hover {
+	background:#0B3B0B;
+	color:#FFFF00;
+
+.imagenes {
+	height: 10%;
+	width: 10%;
+	margin-left: auto;
+	margin-right: auto;
 }
-LI p:hover {
-	background: #000000
-	color: #FFFF00;
+
+div{
+	align="center";
+	margin: auto;
+}
+
+
 
 
